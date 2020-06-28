@@ -1,0 +1,140 @@
+#gal {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  min-height: 100vh;
+  z-index: 5;
+  opacity: 1;
+  // clip-path: circle(50px at 100% -10%);
+}
+
+#gallery {
+  height: 100vh;
+  position: relative;
+}
+
+.swiper-wrapper {
+  z-index: 0;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper-slide {
+  z-index: 0;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.slide-img {
+  height: 100vh;
+}
+
+.reveal-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #e3e3e3;
+  top: 0;
+  left: 0;
+}
+
+.slider-control {
+  z-index: 4 !important;
+  margin: 0;
+  position: absolute;
+  bottom: 8%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+button {
+  z-index: 4;
+  cursor: pointer;
+  color: #333;
+  background: none;
+  padding: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  border-radius: 50%;
+  margin: 0.4em;
+  display: inline-block;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #333;
+  color: #e3e3e3;
+}
+
+.block-1 {
+  z-index: 3;
+  position: absolute;
+  height: 100vh;
+  width: 5%;
+  left: 0%;
+  background: #e3e3e3;
+}
+
+.block-2 {
+  z-index: 3;
+  position: absolute;
+  height: 100vh;
+  width: 15%;
+  left: 19%;
+  background: #e3e3e3;
+}
+
+.block-3 {
+  z-index: 3;
+  position: absolute;
+  height: 100vh;
+  width: 5%;
+  right: 0%;
+  background: #e3e3e3;
+}
+
+.block-4 {
+  z-index: 3;
+  position: absolute;
+  width: 27%;
+  height: 25vh;
+  right: 4%;
+  background: #e3e3e3;
+}
+.block-5 {
+  z-index: 3;
+  position: absolute;
+  width: 27%;
+  height: 60vh;
+  right: 4%;
+  bottom: 0;
+  background: #e3e3e3;
+}
+
+.block-6 {
+  z-index: 3;
+  position: absolute;
+  height: 100vh;
+  width: 5%;
+  right: 29%;
+  background: #e3e3e3;
+}
+
+.icon-xx {
+  z-index: 9;
+  position: absolute;
+  top: 15px;
+  right: 50px;
+  cursor: pointer;
+}
